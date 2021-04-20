@@ -1,0 +1,120 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(135deg, #fff, #fff5f5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__image {
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.logo__image img {
+  width: 100px;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+.main__header {
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 4rem;
+  letter-spacing: 11px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4.2rem;
+}
+
+.line1 {
+  color: #ce9898;
+  font-weight: 300;
+}
+
+.line2,
+.line3 {
+  color: #413a3a;
+  font-weight: 600;
+}
+
+.main__text {
+  color: #ce9898;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.email__input {
+  border: 1px solid rgba(206, 152, 152, 0.5);
+  border-radius: 50px;
+  width: 311px;
+  height: 50px;
+  display: flex;
+}
+
+.input {
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  flex-grow: 1;
+  padding-left: 30px;
+  background: none;
+}
+
+.input::placeholder {
+  color: #ce9898;
+  opacity: 50%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  width: 64px;
+  height: 100%;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #f8bfbf, #ee8b8b);
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 20px 10px rgba(248, 191, 191, 0.35);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active,
+.btn:hover {
+  background: #f8bfbf;
+}
